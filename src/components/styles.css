@@ -1,0 +1,89 @@
+.card {
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+  color: #6d6b6b;
+  margin: 5px 5% 10px 5%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 2%;
+  row-gap: 3px;
+}
+
+.detailsFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.detailsSecond {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cardName {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+  position: sticky;
+  background-color: #353535;
+  top: 0;
+}
+
+.searchInput {
+  height: 20px;
+  padding: 0px;
+  border: 0;
+  padding-left: 3px;
+}
+
+.searchInput:focus {
+  outline: 0px;
+}
+
+.searchButton {
+  height: 20px;
+  border: 0;
+  background-color: #ffffff;
+  color: #6d6b6b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.searchIcon {
+  height: 20px;
+  border: 0;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding-left: 3px;
+  fill: #6d6b6b;
+  stroke-width: 10px;
+  font-size: 14px;
+}
+
+.searchDiv {
+  display: flex;
+  margin-right: 5%;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .detailsFirst {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
